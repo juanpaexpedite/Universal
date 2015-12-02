@@ -3,7 +3,7 @@ UWP Library
 
 <h1>Advanced Flyouts</h1>
 
-This class includes an Attached Property Universal.Attached.Flyout that alllows you to add a TemplatedFlyout that solves:
+This class library includes an Attached Property Universal.Attached.Flyout that alllows you to add a TemplatedFlyout that solves:
 
 <ul>
 <li>Dissapear Parent Flyout when Child Flyout appears.</li>
