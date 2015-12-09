@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="UniversalExamples.SaturationEffectPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UniversalExamples"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:e="using:Universal.Attached"
+    xmlns:c="using:Universal.Compositions"
+    >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid Background="Black">
+            <e:Composition.Effect>
+                <c:Saturation Level="{Binding Value,ElementName=Slider}" Source="Assets/beach.jpg"/>
+            </e:Composition.Effect>
+        </Grid>
+
+        <Slider Margin="20" x:Name="Slider" Value="10" Minimum="0" Maximum="100" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
