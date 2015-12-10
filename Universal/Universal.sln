@@ -14,6 +14,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microsoft.UI.Composition.To
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalExamples", "UniversalExamples\UniversalExamples.csproj", "{8C7BCE08-582A-4066-99C9-B9A78ECE6898}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{7899406E-F4E1-42EA-A7B3-D53AEC7FDC5F}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\JuanPablo\Desktop\fonts.jpg = C:\Users\JuanPablo\Desktop\fonts.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,5 +84,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7899406E-F4E1-42EA-A7B3-D53AEC7FDC5F} = {7710B33C-4D1A-4F5E-BD46-45ED425DA822}
 	EndGlobalSection
 EndGlobal

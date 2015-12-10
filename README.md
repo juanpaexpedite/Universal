@@ -19,5 +19,11 @@ I have created the Effect Saturation attachable with bindable saturation value, 
 
 <img src="https://mareinsula.files.wordpress.com/2015/12/beach.jpg"/>
 
+<h1>Typography</h1>
+
+In this example you can take a look how will look your chosen Font in different styles to adapt to yout development.
+
+
+
 
 
